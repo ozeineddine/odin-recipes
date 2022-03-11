@@ -1,0 +1,53 @@
+
+body {
+    background-color: lightskyblue
+}
+
+a:visited {
+    color:orangered;
+}
+a:hover {
+    color: blue;
+}
+a:active {
+    color: green;
+}
+
+.main_headers {
+    font-family: 'Comic Sans', sans-serif;
+    font-size: 14px;
+    color: orangered;
+    border: 8px outset red;
+    background-color: aqua;
+    text-align: center;
+    display: block;
+    font-weight: 700
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    margin-bottom: auto;
+}
+
+.description_text {
+    font-family: 'Comic Sans', sans-serif;
+    color:orangered;
+    font-weight: 700;
+    text-align: center;
+    border: 8px red;
+    border-style: outset;
+    background-color: aqua;
+}
+
+.links {
+color: green;
+font-family: "Comic Sans", sans-serif;
+font-weight: 700;
+}
+
+#patrick {
+    border: 8px outset red;
+}
