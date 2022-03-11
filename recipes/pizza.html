@@ -5,15 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../styles/style.css">
 </head>
 <body>
-    <h1>Pepperoni Pizza</h1>
-    <img src="../images/pep_pizza.png" alt="Slice of Pepperoni Pizza">
+    <h1 id="pizza_head" class="main_headers">Pepperoni Pizza</h1>
+    <img id="pizza_img" class="center" src="../images/pep_pizza.png" alt="Slice of Pepperoni Pizza">
+    <div class="description_text">
     <h2>Description</h2>
     <p>This is a classic recipe, showing how to make a pepperoni pizza. In total, you will need <strong>6</strong> ingredients for the dough,
     and <strong>9</strong> ingredients for the topping. This pizza takes about <strong>45-60</strong> minutes to make.</p>
-    <h2>Ingredients</h2>
-    <h3>For the dough:</h3>
+</div>
+<div class="description_text unordered_lists">
+    <h2 class="header_for_ul">Ingredients</h2>
+    <h3 style="margin-left: 30px">For the dough:</h3>
     <ul>
         <li>2 and a half cups flour</li>
         <li>1 teaspoon salt</li>
@@ -22,7 +26,8 @@
         <li>1 cup water</li>
         <li>1 tablespoon oil</li>
     </ul>
-    <h3>For the toppings:</h3>
+
+    <h3 style="margin-left: 30px">For the toppings:</h3>
     <ul>
         <li>1/4 cup tomato sauce</li>
         <li>1 teaspoon italian seasoning</li>
@@ -34,7 +39,9 @@
         <li>1 cup shredded monterey jack cheese</li>
         <li>3 tablespoons grated parmesan cheese</li>
     </ul>
-    <h2>Steps:</h2>
+</div>
+<div class="description_text ordered_lists">
+    <h2 class="header_for_ul">Steps:</h2>
     <ol>
         <li>In a large bowl, mix the first 4 ingredients.</li>
         <li>Mix water and oil, and add it to the flour mixture.</li>
@@ -50,6 +57,7 @@
         <li>Repeat the cheese layer.</li>
         <li>Bake at 400 degrees for 20 minutes or until light brown.</li>
     </ol>
-    <a href="../index.html">Back to Main Page</a>
+</div>
+    <a class="links" href="../index.html">Back to Main Page</a>
 </body>
 </html>
