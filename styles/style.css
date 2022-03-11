@@ -24,12 +24,16 @@ a:active {
     font-weight: 700
 }
 
+#shake {
+    font-size: 32px;
+}
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 16px;
     margin-bottom: auto;
+    border: 8px outset red;
 }
 
 .description_text {
@@ -40,6 +44,7 @@ a:active {
     border: 8px red;
     border-style: outset;
     background-color: aqua;
+    margin-top: 8px;
 }
 
 .links {
@@ -48,6 +53,20 @@ font-family: "Comic Sans", sans-serif;
 font-weight: 700;
 }
 
+.unordered_lists {
+    text-align: left;
+    border: 8px inset blue;
+}
+
+.ordered_lists {
+    text-align: left;
+    border: 8px outset rgb(143, 6, 255);
+}
+.header_for_ul {
+    text-align: center;
+}
+
 #patrick {
     border: 8px outset red;
+    margin-top: 8px;
 }
